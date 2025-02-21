@@ -1,4 +1,4 @@
-package rhythmgame;
+package rhythmgame.frame;
 
 import java.awt.*;
 import java.awt.event.*;

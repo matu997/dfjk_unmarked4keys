@@ -1,9 +1,11 @@
-package rhythmgame;
+package rhythmgame.frame;
 
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
+
 import rhythmgame.view.*;
+import rhythmgame.model.GameStatus;
 
 /**
  * タイトル/メニュー画面を示すサンプルフレーム。 難易度選択や曲選択を行い、「スタート」ボタンで LaneFrame を開く。

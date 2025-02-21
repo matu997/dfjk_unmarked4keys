@@ -1,6 +1,8 @@
-package rhythmgame;
+package rhythmgame.model;
 
 import java.util.Observable;
+import rhythmgame.controller.ScoreManager;
+import rhythmgame.controller.AchivementRateManager; // 追加
 
 @SuppressWarnings("deprecation")
 public class GameStatus extends Observable {

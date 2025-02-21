@@ -3,7 +3,8 @@ package rhythmgame.sound;
 import java.awt.event.ActionEvent;
 import javax.sound.sampled.*;
 import javax.swing.Timer;
-import rhythmgame.LaneFrame;
+
+import rhythmgame.frame.LaneFrame;
 
 public class GameAudioController {
 
