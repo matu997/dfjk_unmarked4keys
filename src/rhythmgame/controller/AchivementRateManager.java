@@ -1,6 +1,6 @@
-package rhythmgame;
+package rhythmgame.controller;
 
-class AchivementRateManager {
+public class AchivementRateManager {
     // ノルマ達成率を管理するクラス
     private double achievementRate; // ノルマ達成率
     private int maxComboCount; // 最大コンボ数

@@ -9,7 +9,8 @@ import java.util.Observer;
 import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 import javax.swing.Timer;
-import rhythmgame.GameStatus;
+
+import rhythmgame.model.GameStatus;
 
 @SuppressWarnings("deprecation")
 public class ComboPanel extends JPanel implements Observer {

@@ -1,4 +1,4 @@
-package rhythmgame;
+package rhythmgame.controller;
 
 public class ScoreManager {
     // ゲームのスコアを管理・計算するクラス

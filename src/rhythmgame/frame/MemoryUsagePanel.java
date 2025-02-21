@@ -1,4 +1,4 @@
-package rhythmgame;
+package rhythmgame.frame;
 
 import javax.swing.*;
 import java.awt.*;

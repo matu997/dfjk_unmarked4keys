@@ -1,4 +1,4 @@
-package rhythmgame;
+package rhythmgame.frame;
 
 import java.awt.*;
 import java.awt.event.ComponentAdapter;
@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import javax.swing.*;
 
 import rhythmgame.controller.Controller;
+import rhythmgame.model.GameStatus;
 import rhythmgame.model.NotesModel;
 import rhythmgame.sound.GameAudioController;
 import rhythmgame.view.*;
@@ -108,7 +109,7 @@ public class LaneFrame extends JFrame {
 
         // 画像ロードを別スレッドで
         new Thread(() -> {
-            backgroundImages = loadBackgroundImagesWithProgress("background/" + title + "/", "bga_" + title + "_%05d.png", 359);
+            backgroundImages = loadBackgroundImagesWithProgress("background/" + title + "/", "bga_" + title + "_%05d.png", 517);
             //backgroundImages = loadBackgroundImagesWithProgress("background/light/", "bga_" + "test" + "_%05d.png", 359);
             SwingUtilities.invokeLater(this::initializeGameComponents);
         }).start();
